@@ -1090,4 +1090,19 @@ a {
     .table__data {
         padding: 14px 10px;
     }
+    .background-video__wrapper {
+        display: none;
+    }
+    .text-primary {
+        line-height: 140%;
+    }
+    .mainscreen-content {
+        gap: 20px;
+    }
+    body {
+        background-image: url(../img/bgbg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 600px;
+        background-position: top 90px center;
+    }
 }
