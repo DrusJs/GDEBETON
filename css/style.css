@@ -463,13 +463,25 @@ a {
 .select-button .select-value {
     color: var(--color-grey);
 }
-
+.select-wrapper {
+    position: relative;
+}
 .select-dropdown {
     list-style-type: none;
+    display: none;
     color: var(--color-grey);
     border: 1px solid var(--color-lightgrey);
     border-radius: 10px;
+    width: 100%;
+    background-color: var(--bg-color);
     overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+}
+
+.select-wrapper.active .select-dropdown {
+    display: block;
 }
 
 .select-dropdown__item {
