@@ -276,10 +276,11 @@ a {
 }
 
 .nav__links-wrapper {
-    max-width: 637px;
+    max-width: 415px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .nav__links-wrapper a{
@@ -884,6 +885,7 @@ a {
     .nav__links-wrapper {
         flex-direction: column;
         max-width: none;
+        margin: 0;
     }
     .header__nav {
         max-width: none;
