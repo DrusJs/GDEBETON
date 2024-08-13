@@ -551,8 +551,13 @@ a {
 
 }
 
-.tab-button--active svg path{
+.tab-button--active svg path {
     fill: var(--primary-color);
+    stroke: var(--primary-color);
+}
+
+.tab-button--active svg circle {
+    stroke: var(--primary-color);
 }
 
 .tab-button--active::after {
