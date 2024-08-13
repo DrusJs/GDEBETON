@@ -705,9 +705,9 @@ a {
 }
 
 .socialmedia__button {
-    background-color: transparent;
     min-width: 40px;
     min-height: 40px;
+    text-decoration: none;
 }
 
 .footer__feedback {
